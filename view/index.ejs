@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Passport Authentication</title>
+</head>
+<body>
+	<% if(!isAuthenticated) { %>
+		<a href="/login">Login Here</a>
+	<% } else { %>
+		Welcome <%= user.name %>
+		<a href="/logout">Logout Here</a>
+	<% } %>
+</body>
+</html>
