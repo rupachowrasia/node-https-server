@@ -4,7 +4,7 @@ NodeJS HTTPS server which covers brief introduction of the following:
   - https [to create nodejs server]
   - passport-http [to authenticate http request]
 
-# New Features!
+# New Features
   - Create https server using https module 
   - Authenticate HTTP requests using passport-http
   
